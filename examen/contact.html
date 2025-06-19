@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Kairos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-fixed.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">KAIROS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">À propos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Boutique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="boutique.html#montres">Montres</a></li>
+                            <li><a class="dropdown-item" href="boutique.html#bracelets">Bracelets</a></li>
+                            <li><a class="dropdown-item" href="boutique.html#accessoires">Accessoires</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-heart"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Titre Principal -->
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-3 fw-bold mb-4">Contact</h1>
+                    <p class="lead text-muted">Nous sommes là pour vous accompagner dans votre expérience Kairos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center mb-5">Nos Coordonnées</h2>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon mb-3">
+                            <i class="fas fa-map-marker-alt fa-3x text-primary"></i>
+                        </div>
+                        <h4>Adresse</h4>
+                        <p>123 Rue de l'Horlogerie<br>
+                        75001 Paris, France</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon mb-3">
+                            <i class="fas fa-phone fa-3x text-primary"></i>
+                        </div>
+                        <h4>Téléphone</h4>
+                        <p>+33 1 42 86 95 30<br>
+                        Lun-Ven : 9h-18h</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon mb-3">
+                            <i class="fas fa-envelope fa-3x text-primary"></i>
+                        </div>
+                        <h4>E-mail</h4>
+                        <p>contact@kairos.fr<br>
+                        support@kairos.fr</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center mb-5">Contactez-nous</h2>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="prenom" class="form-label">Prénom *</label>
+                                        <input type="text" class="form-control" id="prenom" name="prenom" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="nom" class="form-label">Nom *</label>
+                                        <input type="text" class="form-control" id="nom" name="nom" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">E-mail *</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="service" class="form-label">Service souhaité *</label>
+                                        <select class="form-select" id="service" name="service" required>
+                                            <option value="">Choisissez un service</option>
+                                            <option value="commande">Suivi de commande</option>
+                                            <option value="retour">Retour/Échange</option>
+                                            <option value="reparation">Réparation/SAV</option>
+                                            <option value="garantie">Garantie</option>
+                                            <option value="conseil">Conseil d'achat</option>
+                                            <option value="reclamation">Réclamation</option>
+                                            <option value="autre">Autre</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="commentaire" class="form-label">Commentaire *</label>
+                                        <textarea class="form-control" id="commentaire" name="commentaire" rows="5" required placeholder="Décrivez votre demande en détail..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">Envoyer le message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Store Hours Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title text-center mb-5">Horaires d'Ouverture</h2>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <h4 class="mb-4">Boutique Paris</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Lundi - Vendredi</strong><br>
+                                9h00 - 18h00</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Samedi</strong><br>
+                                10h00 - 17h00</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Dimanche</strong><br>
+                                Fermé</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Jours fériés</strong><br>
+                                Fermé</p>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <h5>Service Client</h5>
+                        <p class="mb-0">
+                            <strong>Lundi - Vendredi :</strong> 9h00 - 18h00<br>
+                            <strong>Samedi :</strong> 10h00 - 17h00<br>
+                            <strong>Dimanche :</strong> Fermé
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h5>KAIROS</h5>
+                    <p>L'élégance du temps, la précision de l'excellence.</p>
+                    <p>&copy; 2024 Kairos. Tous droits réservés.</p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5>Liens utiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="boutique.html">Boutique</a></li>
+                        <li><a href="services.html">Services client</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h5>Suivez-nous</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div class="mt-3">
+                        <a href="#" class="text-muted">Mentions légales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

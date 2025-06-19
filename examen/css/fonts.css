@@ -1,0 +1,66 @@
+/* ================= POLICES LOCALES ================= */
+
+/* Police Cinzel - Utilise des polices système similaires */
+@font-face {
+    font-family: 'Cinzel';
+    src: local('Times New Roman'), local('Georgia'), local('serif');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: local('Times New Roman'), local('Georgia'), local('serif');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: local('Times New Roman'), local('Georgia'), local('serif');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: local('Times New Roman'), local('Georgia'), local('serif');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Police Montserrat - Utilise des polices système similaires */
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Arial'), local('Helvetica'), local('sans-serif');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Arial'), local('Helvetica'), local('sans-serif');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Arial'), local('Helvetica'), local('sans-serif');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Arial'), local('Helvetica'), local('sans-serif');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Arial'), local('Helvetica'), local('sans-serif');
+    font-weight: 700;
+    font-style: normal;
+} 
